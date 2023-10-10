@@ -1,0 +1,20 @@
+@import "theme";
+
+:root {
+  font-size: 16px;
+}
+
+html {
+  touch-action: manipulation;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+:after,
+:before {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
